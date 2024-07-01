@@ -20,3 +20,21 @@ Entrada: n = 3
 Salida esperada: 6 (3! = 321 = 6)
 
 """
+
+def factorial_numero():
+    factorial = 1
+
+    numero = int(input("Ingresa un número: "))
+
+    while numero > 1:
+        factorial *= numero
+        numero -= 1
+    
+    print(factorial)
+
+factorial_numero()
+
+
+
+
+
