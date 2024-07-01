@@ -25,3 +25,17 @@ solo dale el enunciado y esbozale el procedimiento a seguir para resolverlos.
 Si en ellos hay algun calculo o resultado final, creale un juego de pruebas para que ella valore si su solucion funciona o no.
 
 """
+
+def suma_numeros_naturales():
+
+    suma = 0
+    iterador = 1
+
+    numero = int(input("Ingresa un número: "))  # Pendiente de agregar validaciones para cuando el usuario ingrese algo diferente a un número
+    
+    while iterador <= numero:
+        suma += iterador
+        iterador += 1
+    print(suma)
+
+suma_numeros_naturales()
