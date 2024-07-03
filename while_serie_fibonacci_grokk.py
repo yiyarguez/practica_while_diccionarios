@@ -42,6 +42,7 @@ fibonacci()
 
 
 """
+Ejemplo:
 numero = 5
 
 numero    temp_a        a         b        print(a)    
